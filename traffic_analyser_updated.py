@@ -1654,14 +1654,14 @@ def print_main_header():
     print()
     print (Title.traffic_analyser)
     print()
-    print( 'Version: {0}'.format(Col.GREEN + 'v2.1' + Col.ENDC))
-    print( 'Last Updated: {0}'.format(Col.GREEN + '19/Feb/2017' +
+    print( 'Version: {0}'.format(Col.GREEN + 'v2.2' + Col.ENDC))
+    print( 'Last Updated: {0}'.format(Col.GREEN + '18/Apr/2025' +
                                      Col.ENDC))
     print( 'See changelog here: {0}'.format(
-        Col.GREEN + 'https://github.com/tahz7/traffic_analyser/'
+        Col.GREEN + 'https://github.com/MagnetByte/traffic_analyser'
                     'blob/master/CHANGELOG.md' + Col.ENDC))
     print( 'Report bugs/issues to: {0}'.format(
-        Col.GREEN + 'https://github.com/tahz7/traffic_analyser' + Col.ENDC))
+        Col.GREEN + 'https://github.com/MagnetByte/traffic_analyser' + Col.ENDC))
     print()
 
 

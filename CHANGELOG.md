@@ -1,3 +1,8 @@
+#### 18/Apr/2025 ####
+
+-- Updated code to support python3+ --
+-- Now it Will work on EL OS + and Ubuntu 22+
+
 #### 19/Feb/2017 ####
 
 --Bug Fixes--

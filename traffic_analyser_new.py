@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
-# Original Author: Tahzeem Taj
-#               tahzeem.taj@gmail.com
-# Source:       https://github.com/tahz7/traffic_analyser
-# Updated By: MagnetByte Technology
-# Source:       https://github.com/MagnetByte/traffic_analyser
+# Original Author:  Tahzeem Taj
+#                   tahzeem.taj@gmail.com
+# Source:           https://github.com/tahz7/traffic_analyser
+# Updated By:       MagnetByte Technology
+# Source:           https://github.com/MagnetByte/traffic_analyser
 
 from datetime import datetime, timedelta
 import json

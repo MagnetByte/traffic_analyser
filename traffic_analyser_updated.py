@@ -689,7 +689,7 @@ class GetData(object):
             request_no = opts.compact[1]
 
         # Limit geo api to 30 ip's to avoid potential abuse.
-        if isinstance(ip_no, int) 
+        if not opts.nogeo:
             if ip_no > 30:
                 self.data['geo_limit'] = ip_no
                 ip_no = 30

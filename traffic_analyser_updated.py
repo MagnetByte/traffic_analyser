@@ -690,13 +690,14 @@ class GetData(object):
 
         # Limit geo api to 30 ip's to avoid potential abuse.
         if not opts.nogeo:
-         if ip_no and ip_no > 30:
-           self.data['geo_limit'] = ip_no
-           ip_no = 30
+            if ip_no is None:
+                ip_no = 0
+            if ip_no > 30:
+                self.data['geo_limit'] = ip_no
+                ip_no = 30
 
         self.data['ip_no'] = ip_no
         self.data['request_no'] = request_no
-
 
 class LogDataStructure(object):
 

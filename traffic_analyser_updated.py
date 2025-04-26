@@ -1426,8 +1426,7 @@ class PrintData(object):
         self.display_time_range(start_time, end_time, opts, ip_no,
                                 "ip's")
         # sort per IP with highest hits
-        ip_logs = sorted(ip_logs.items(), key=itemgetter(
-            1), reverse=True)
+        ip_logs = sorted(ip_logs.items(), key=lambda item: item[1].get('requests', 0), reverse=True)
         # ipmatch should only display the ip's user inputs
         if not opts.ipmatch:
             ip_logs = ip_logs[:ip_no]

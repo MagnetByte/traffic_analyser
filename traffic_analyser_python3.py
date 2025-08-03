@@ -1,4 +1,3 @@
-[root@1333686-Web1 ~]# cat /home/rack/traffic_analyser.py
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 # Author:       Tahzeem Taj
@@ -1890,3 +1889,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
